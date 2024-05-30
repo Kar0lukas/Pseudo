@@ -1,0 +1,66 @@
+
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    background: yellow;
+  }
+  
+
+
+  a:active {
+    color: red;
+  }
+  
+  
+  p:active {
+    background: #eee;
+  }
+
+  .first_child P:first-child{
+      color: rgb(32, 214, 22);
+  }
+  .first-child{
+      border: solid 2px black;
+      width: 200px;
+      height: 200px;
+  }
+
+  .nope:disabled{
+background-color: red;
+
+  }
+
+  .firstOfType p:first-of-type{
+      border: solid 2px black
+  }
+
+.focus:focus{
+      background-color: blue;
+      color: azure;
+  }
+  p:first-letter{
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: yellow
+  }
+
+  .inrange:in-range {
+      background-color: darkorchid;
+      color: white;
+  }
+
+  .invalid:invalid{
+      background-color: darkkhaki;
+    
+  }
+
+  .button:hover{
+      background-color: blue;
+transition-duration: 0.3s;
+  }
